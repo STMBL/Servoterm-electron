@@ -1,0 +1,23 @@
+html, body
+{
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+.output
+{
+	height:100%;
+   font-family: monospace;
+   font-size:10pt;
+	overflow-y:scroll;
+	overflow-x:hidden;
+   -webkit-user-select: text;
+}
+.heighttext{
+   font-family: monospace;
+   font-size:10pt;
+   width:100%;
+}
+.heighttext:focus {
+   outline:none;
+}
